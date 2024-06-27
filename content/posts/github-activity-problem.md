@@ -111,4 +111,5 @@ Verify you are on the main branch:
 By following these steps, you should be able to ensure that your subsequent commits and activity are correctly displayed on your GitHub profile and others can see them as well. If the problem persists, it might be worth reaching out to GitHub support for further assistance.
 
 
-[You can see this video] (https://www.youtube.com/watch?v=CdQ6Rbf8nmA)
+
+[Also You can see this video] (https://www.youtube.com/watch?v=CdQ6Rbf8nmA)
