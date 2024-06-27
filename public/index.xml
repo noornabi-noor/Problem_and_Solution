@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem and Solution Session</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Problem and Solution Session</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jun 2024 12:02:15 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github Activity Problem</title>
+      <link>http://localhost:1313/posts/github-activity-problem/</link>
+      <pubDate>Thu, 27 Jun 2024 12:02:15 +0600</pubDate>
+      <guid>http://localhost:1313/posts/github-activity-problem/</guid>
+      <description>The GitHub Activity Problem refers to the challenges developers face when trying to keep track of their activity on GitHub. This can include monitoring contributions, managing repositories, and maintaining an active presence on the platform. The issue is compounded for developers working on multiple projects or collaborating with different teams.&#xA;You&amp;rsquo;re experiencing an issue where after creating a new repository, the initial activity shows up on your profile and others can see it.</description>
+    </item>
+  </channel>
+</rss>

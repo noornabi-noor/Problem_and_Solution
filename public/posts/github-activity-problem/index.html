@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Github Activity Problem | Problem and Solution Session</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="The GitHub Activity Problem refers to the challenges developers face when trying to keep track of their activity on GitHub. This can include monitoring contributions, managing repositories, and maintaining an active presence on the platform. The issue is compounded for developers working on multiple projects or collaborating with different teams.
+You&rsquo;re experiencing an issue where after creating a new repository, the initial activity shows up on your profile and others can see it.">
+    <meta name="generator" content="Hugo 0.126.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/github-activity-problem/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/github-activity-problem/">
+  <meta property="og:site_name" content="Problem and Solution Session">
+  <meta property="og:title" content="Github Activity Problem">
+  <meta property="og:description" content="The GitHub Activity Problem refers to the challenges developers face when trying to keep track of their activity on GitHub. This can include monitoring contributions, managing repositories, and maintaining an active presence on the platform. The issue is compounded for developers working on multiple projects or collaborating with different teams.
+You’re experiencing an issue where after creating a new repository, the initial activity shows up on your profile and others can see it.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-06-27T12:02:15+06:00">
+    <meta property="article:modified_time" content="2024-06-27T12:02:15+06:00">
+
+  <meta itemprop="name" content="Github Activity Problem">
+  <meta itemprop="description" content="The GitHub Activity Problem refers to the challenges developers face when trying to keep track of their activity on GitHub. This can include monitoring contributions, managing repositories, and maintaining an active presence on the platform. The issue is compounded for developers working on multiple projects or collaborating with different teams.
+You’re experiencing an issue where after creating a new repository, the initial activity shows up on your profile and others can see it.">
+  <meta itemprop="datePublished" content="2024-06-27T12:02:15+06:00">
+  <meta itemprop="dateModified" content="2024-06-27T12:02:15+06:00">
+  <meta itemprop="wordCount" content="615">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Github Activity Problem">
+  <meta name="twitter:description" content="The GitHub Activity Problem refers to the challenges developers face when trying to keep track of their activity on GitHub. This can include monitoring contributions, managing repositories, and maintaining an active presence on the platform. The issue is compounded for developers working on multiple projects or collaborating with different teams.
+You’re experiencing an issue where after creating a new repository, the initial activity shows up on your profile and others can see it.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Problem and Solution Session
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Github Activity Problem</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-06-27T12:02:15+06:00">June 27, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>The GitHub Activity Problem refers to the challenges developers face when trying to keep track of their activity on GitHub. This can include monitoring contributions, managing repositories, and maintaining an active presence on the platform. The issue is compounded for developers working on multiple projects or collaborating with different teams.</p>
+<p>You&rsquo;re experiencing an issue where after creating a new repository, the initial activity shows up on your profile and others can see it. However, subsequent commits or updates to the repository do not appear in the activity feed.</p>
+<p>You can solved this problem to follow this process:</p>
+<pre><code>    1. Go to setting
+    2. Find Email and Go to Email
+    3. Find Backup email address and mark it for Only allow primary Email then save it.
+</code></pre>
+<p>Now refresh your profile. Update or write something and add this repository then push github. Check your activity, I think solved your problem.</p>
+<blockquote>
+<p>Moreover you can face others problem, this can be due to several reasons. Let&rsquo;s diagnose and address this issue step by step.</p>
+</blockquote>
+<h4 id="potential-causes-and-solutions">Potential Causes and Solutions</h4>
+<p><strong>1. Commit Email Mismatch</strong></p>
+<p>If your commits are not associated with your GitHub account due to an email mismatch, they won&rsquo;t appear in your activity feed.</p>
+<p><strong>Solution:</strong>
+Verify that the email address used in your local Git configuration matches the email associated with your GitHub account.</p>
+<ul>
+<li>
+<p>Check your current Git email:</p>
+<pre><code>  git config --global user.email
+</code></pre>
+</li>
+<li>
+<p>If it needs updating, set it correctly:</p>
+<pre><code>  git config --global user.email &quot;your-email@example.com&quot;
+</code></pre>
+</li>
+<li>
+<p>Ensure the email is verified on GitHub:</p>
+<ul>
+<li>Go to your GitHub profile settings.</li>
+<li>Under &ldquo;Emails&rdquo;, make sure your email address is listed and verified.</li>
+</ul>
+</li>
+</ul>
+<p><strong>2. Commit Visibility</strong></p>
+<p>If your commits are part of a pull request that hasn’t been merged yet, they might not show up in your activity feed until the pull request is merged.</p>
+<p><strong>Solution:</strong></p>
+<p>Ensure that the commits are directly pushed to the main branch or that the pull requests containing them are merged.</p>
+<p><strong>3. GitHub Caching and Delays</strong></p>
+<p>GitHub activity feeds might experience delays due to caching. Sometimes, activities might not appear immediately.</p>
+<p><strong>Solution:</strong></p>
+<p>Wait for a while to see if the activity appears. Try refreshing the page or logging out and back in.</p>
+<p><strong>4. Repository Visibility</strong></p>
+<p>Ensure the repository visibility has not changed unexpectedly. If a repository is private, only you and collaborators can see the activity.</p>
+<p><strong>Solution:</strong></p>
+<p>Confirm the repository is still public if it was meant to be so.</p>
+<p><strong>5. Commit to the Correct Branch</strong></p>
+<p>Ensure you are committing and pushing changes to the correct branch (typically the main or master branch) that you are expecting to track activity from.</p>
+<p><strong>Solution:</strong></p>
+<p>Check your branch before committing:
+git branch
+Switch to the correct branch if needed:
+git checkout main</p>
+<h3 id="step-by-step-example">Step-by-Step Example</h3>
+<p>Let’s walk through a typical commit process to ensure everything is set correctly:</p>
+<ol>
+<li>
+<p>Configure Git with Correct Email:</p>
+<pre><code> git config --global user.email &quot;your-email@example.com&quot; 
+</code></pre>
+</li>
+<li>
+<p>Create a New Repository:</p>
+<pre><code> mkdir new-repo
+ cd new-repo
+ git init
+ echo &quot;# New Repo&quot; &gt; README.md
+ git add README.md
+ git commit -m &quot;Initial commit&quot;
+ git remote add origin https://github.com/your-username/new-repo.git
+ git push -u origin main
+</code></pre>
+</li>
+<li>
+<p>Subsequent Commits:</p>
+<pre><code> echo &quot;Some changes&quot; &gt; file.txt
+ git add file.txt
+ git commit -m &quot;Added file.txt&quot;
+ git push origin main
+</code></pre>
+</li>
+<li>
+<p>Verify Repository and Branch:</p>
+</li>
+</ol>
+<p>Ensure the repository is public on GitHub.
+Verify you are on the main branch:</p>
+<pre><code>    git branch
+</code></pre>
+<ol start="5">
+<li>Wait and Refresh:</li>
+</ol>
+<ul>
+<li>Wait a few minutes and refresh your GitHub profile page.</li>
+<li>Log out and back in if necessary.</li>
+</ul>
+<p>By following these steps, you should be able to ensure that your subsequent commits and activity are correctly displayed on your GitHub profile and others can see them as well. If the problem persists, it might be worth reaching out to GitHub support for further assistance.</p>
+<p>[You can see this video] (<a href="https://www.youtube.com/watch?v=CdQ6Rbf8nmA">https://www.youtube.com/watch?v=CdQ6Rbf8nmA</a>)</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Problem and Solution Session 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
